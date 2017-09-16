@@ -11,5 +11,6 @@ brew install $(cat Brewfile|grep -v "#")
 # Install casks
 brew cask install $(cat Caskfile|grep -v "#")
 
+echo "Script $(basename \"$0\") complete."
 
 # To run dotfile: sh ~/.brew

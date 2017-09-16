@@ -21,3 +21,5 @@ pip3 install --upgrade pip setuptools
 
 # install PEP 8
 pip3 install pep8 autopep8
+
+echo "Script $(basename \"$0\") complete."

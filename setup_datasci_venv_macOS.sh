@@ -12,3 +12,5 @@ pip3 install pandas sqlalchemy ipython
 
 
 source deactivate
+
+echo "Script $(basename \"$0\") complete."
