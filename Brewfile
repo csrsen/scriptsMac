@@ -29,7 +29,6 @@ pcre
 pixman
 postgresql
 python
-python3
 r
 readline
 s-lang

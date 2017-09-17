@@ -13,8 +13,8 @@ ruby -e "$(curl -fsSL ${BREW_URI})"
 # add Homebrew to PATH
 echo "export PATH=/usr/local/bin:/usr/local/sbin:$PATH" >> ~/.profile
 
-# install Python 3 and postgresql
-brew install python3 postgresql
+# install Python 3
+brew install python3
 
 # upgrade pip and setuptools
 pip3 install --upgrade pip setuptools

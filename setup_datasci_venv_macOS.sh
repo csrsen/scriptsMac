@@ -8,7 +8,7 @@ pyvenv datasci
 source datasci/bin/activate
 
 # install packages
-pip3 install pandas sqlalchemy ipython
+pip3 install jupyter pandas sqlalchemy ipython beautifulsoup4 matplotlib numpy scikit-learn widgetsnbextension xlrd
 
 
 source deactivate
