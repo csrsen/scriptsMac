@@ -1,5 +1,5 @@
 #!/bin/bash
 
-apm install dash minimap language-coffee-script
+apm install dash minimap language-coffee-script language-applescript
 
 echo "Script $(basename \"$0\") complete."
