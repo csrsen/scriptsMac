@@ -17,3 +17,13 @@ az provider show --namespace Microsoft.Batch --query "resourceTypes[?resourceTyp
 
 # To get the supported locations for a resource type
 az provider show --namespace Microsoft.Batch --query "resourceTypes[?resourceType=='batchAccounts'].locations | [0]" --out table
+
+# To deploy Azure template
+cd "/Users/craig/OneDrive - Srsen Consulting LLC/Scripts"
+az login
+
+az group create --name SrsenConsulting --location "West US"
+az group deployment create --resource-group SrsenConsulting --template-file azuredeploy.json --parameters storageSKU=Standard_RAGRS storageNamePrefix=newstore
+
+# to clean up resources
+az group delete --name SrsenConsulting
