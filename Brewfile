@@ -22,6 +22,7 @@ libssh2
 libtiff
 midnight-commander
 mpfr
+mssql-tools
 node
 openssl
 openssl@1.1
