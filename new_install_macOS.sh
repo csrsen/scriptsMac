@@ -22,4 +22,9 @@ pip3 install --upgrade pip setuptools
 # install PEP 8
 pip3 install pep8 autopep8
 
+# instal MSSQL command line tools
+brew tap microsoft/mssql-release
+brew update
+ACCEPT_EULA=y brew install --no-sandbox msodbcsql mssql-tools
+
 echo "Script $(basename \"$0\") complete."
